@@ -1,0 +1,94 @@
+/* start global*/
+
+/*  start media query */
+/* from 0 mobild and tablets*/
+@media (max-width:576px) {
+
+     .landing-page .introduction-tetx h1 {
+          font-size: 30px;
+     }
+
+     h1 {
+          font-size: 30px;
+     }
+
+     h2 {
+          font-size: 27px;
+     }
+
+     p {
+          font-size: 16px;
+          line-height: 1.2
+     }
+
+     .timeline .timeline-content .box-left:after,
+     .timeline .timeline-content .box-right:after {
+          display: none;
+          margin-bottom: 0px;
+     }
+
+     .testimonials .ts-box>div {
+          text-align: center;
+     }
+
+     .testimonials .ts-box>div img {
+          float: none;
+          margin-right: 0px
+     }
+
+}
+
+/* from phone to small screen*/
+@media (min-width:768px) and (max-width:992px) {
+     .container {
+          width: 720px;
+     }
+
+     .landing-page .introduction-tetx h1 {
+          font-size: 30px;
+     }
+
+     h1 {
+          font-size: 30px;
+     }
+
+     h2 {
+          font-size: 27px;
+     }
+
+     p {
+          font-size: 17px;
+          line-height: 1.2
+     }
+
+     .timeline .timeline-content .box-left:after,
+     .timeline .timeline-content .box-right:after {
+          display: none;
+          margin-bottom: 0px;
+     }
+
+     .testimonials .ts-box>div {
+          text-align: center;
+     }
+
+     .testimonials .ts-box>div img {
+          float: none;
+          margin-right: 0px
+     }
+}
+
+/* from small screen to medium */
+@media (min-width:992px) and (max-width:1199px) {
+     .container {
+          width: 960px;
+     }
+}
+
+/* from medium to big */
+@media (min-width:1200px) {
+     .container {
+          width: 1940px;
+     }
+}
+
+/* end media query */
